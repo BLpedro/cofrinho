@@ -1,4 +1,4 @@
-const apiKey = 'cpll2tpr01qn8g1uv7ogcpll2tpr01qn8g1uv7p0'; // Substitua 'YOUR_FINNHUB_API_KEY' pela sua chave da API Finnhub
+const apiKey = 'cq1ftthr01qjh3d5mingcq1ftthr01qjh3d5mio0'; // Substitua 'YOUR_FINNHUB_API_KEY' pela sua chave da API Finnhub
 
 async function fetchStockData() {
     const stockTableBody = document.querySelector('#stockTable tbody');
