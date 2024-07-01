@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.getElementById('stockSymbol').textContent = symbol;
 
         // Carregar dados adicionais a partir do arquivo JSON
-        const responseDetails = await fetch('details.json');
+        const responseDetails = await fetch('./data/details.json');
         const details = await responseDetails.json();
         const stockDetails = details[symbol];
 
