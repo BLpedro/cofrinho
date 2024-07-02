@@ -134,7 +134,7 @@ function calcularSaldoLiquido() {
         .filter(post => post.idCliente === userId)
         .reduce((acc, post) => acc + parseInt(post.valor), 0);
 
-      fetch('http://localhost:3000/gastos')
+      fetch('https://json-vercel-five.vercel.app/gastos')
       .then(response => response.json())
       .then(gastosData => {
           // Filtra as saídas pelo idCliente
