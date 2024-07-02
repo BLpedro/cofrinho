@@ -37,7 +37,7 @@ function adicionarSaldo() {
 function loadPosts() {
   const userId = localStorage.getItem("userId"); // Recupera o userId do Local Storage
   
-  fetch('http://localhost:3000/entradas')
+  fetch('https://json-vercel-five.vercel.app/entradas')
   .then(response => response.json())
   .then(data => {
       const postList = document.getElementById('saldo-list');
